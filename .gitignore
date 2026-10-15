@@ -1,0 +1,14 @@
+.config/
+go/
+tmp-view/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+node_modules/
+__pycache__/

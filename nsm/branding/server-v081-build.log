@@ -1,0 +1,21 @@
+[2026-10-15 20:35:22] watching server CI run 38795556491
+[2026-10-15 20:35:22] CI status=in_progress conclusion=None
+[2026-10-15 20:38:19] watching server CI run 38795556491
+[2026-10-15 20:38:20] CI status=in_progress conclusion=None
+[2026-10-15 20:42:52] CI status=in_progress conclusion=None
+[2026-10-15 20:45:14] CI status=in_progress conclusion=None
+[2026-10-15 20:46:14] CI status=in_progress conclusion=None
+[2026-10-15 20:54:55] watching server CI run 38795556491
+[2026-10-15 20:54:56] CI status=in_progress conclusion=None
+[2026-10-15 20:58:33] CI status=in_progress conclusion=None
+[2026-10-15 20:59:33] CI status=completed conclusion=success
+[2026-10-15 20:59:35] downloaded v0.8 base (68,975,584 bytes)
+[2026-10-15 21:00:12] rebuilt citizen-server-impl.dll: 6,677,504 bytes
+[2026-10-15 21:00:22] PASS new DLL is the CI artifact with local URLs patched
+[2026-10-15 21:00:22] PASS local heartbeat endpoint embedded
+[2026-10-15 21:00:22] PASS no VPS address remains in server binaries
+[2026-10-15 21:00:22] PASS no direct aka route remains in server binaries
+[2026-10-15 21:00:22] PASS local server config retained
+[2026-10-15 21:00:22] PASS no svadhesive DLL
+[2026-10-15 21:00:22] PASS v0.8.1 README present
+[2026-10-15 21:00:26] uploaded new asset NSM-server-v0.8.1-localtest.zip (68,976,189 bytes): https://github.com/platinum-cfx/NSM-FIVEM/releases/download/nsm-v0.2-preview/NSM-server-v0.8.1-localtest.zip

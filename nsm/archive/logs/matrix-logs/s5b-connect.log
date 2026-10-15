@@ -1,0 +1,43 @@
+[2026-10-13 16:28:36] Starting connect.exe / NSM.exe
+[2026-10-13 16:28:36] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:28:36] NSM.exe path: C:\nsmtest\layoutT\client-new\NSM.exe
+[2026-10-13 16:28:36] baseDir (folder of NSM.exe - ALL pack lookups use this, never the working directory): C:\nsmtest\layoutT\client-new
+[2026-10-13 16:28:36] current working directory (informational only): C:\nsmtest\layoutT\client-new
+[2026-10-13 16:28:37] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:28:37] EnsureGameFilesReady: NSM.exe path = C:\nsmtest\layoutT\client-new\NSM.exe
+[2026-10-13 16:28:37] EnsureGameFilesReady: baseDir (folder of NSM.exe, the ONLY folder used for pack lookups) = C:\nsmtest\layoutT\client-new
+[2026-10-13 16:28:37] EnsureGameFilesReady: current working directory (informational only, NEVER used for pack lookups) = C:\nsmtest\layoutT\client-new
+[2026-10-13 16:28:37] EnsureGameFilesReady: game runtime targetDir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:28:37] Extracting game packs into C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f...
+[2026-10-13 16:28:37] Pack directory candidates (checked in this order, all resolved from the NSM.exe location):
+[2026-10-13 16:28:37]   candidate 1: C:\nsmtest\layoutT\client-new\packs
+[2026-10-13 16:28:37]   candidate 2: C:\nsmtest\layoutT\client-new\client-new\packs
+[2026-10-13 16:28:37]   candidate 3: C:\nsmtest\layoutT\packs
+[2026-10-13 16:28:37]   candidate 4: C:\nsmtest\layoutT\client-new
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp1.pack : present, 12000032 B (release pack is 228682672 B - content is validated during decryption)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp2.pack : present, 50003 B (release pack is 59032608 B - content is validated during decryption)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp3.pack : present, 91408 B (release pack is 41842720 B - content is validated during decryption)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp4.pack : present, 91408 B (release pack is 47905824 B - content is validated during decryption)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp5.pack : present, 91408 B (release pack is 44633120 B - content is validated during decryption)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp6.pack : present, 91408 B (release pack is 45305888 B - content is validated during decryption)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\packs\mp7.pack : present, 91408 B (release pack is 60693024 B - content is validated during decryption)
+[2026-10-13 16:28:37]   candidate C:\nsmtest\layoutT\client-new\packs : 7/7 packs present
+[2026-10-13 16:28:37]   candidate C:\nsmtest\layoutT\client-new\client-new\packs : directory does not exist (Windows error 3)
+[2026-10-13 16:28:37]   candidate C:\nsmtest\layoutT\packs : directory does not exist (Windows error 2)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp1.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp2.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp3.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp5.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp6.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   pack check: C:\nsmtest\layoutT\client-new\mp7.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:28:37]   candidate C:\nsmtest\layoutT\client-new : 0/7 packs present
+[2026-10-13 16:28:37] Selected pack directory: C:\nsmtest\layoutT\client-new\packs (all 7 packs present)
+[2026-10-13 16:28:37] pack mp1.pack extracted OK from C:\nsmtest\layoutT\client-new\packs
+[2026-10-13 16:28:37] FAILED: mp2.pack could not be decrypted: decryption failed - the encrypted data length is not a multiple of 16, so the file is truncated or corrupt
+[2026-10-13 16:28:37] Game files preparation FAILED: Extraction failed - mp2.pack could not be decrypted.
+Reason: decryption failed - the encrypted data length is not a multiple of 16, so the file is truncated or corrupt
+Pack file: C:\nsmtest\layoutT\client-new\packs\mp2.pack
+
+The file is corrupt, truncated or not a valid NSM pack. Re-download it (github.com/platinum-cfx/NSM -> Code -> Download ZIP, or Releases -> game-packs) and place it in:
+C:\nsmtest\layoutT\client-new\packs

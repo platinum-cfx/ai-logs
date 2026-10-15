@@ -1,0 +1,90 @@
+FILE 3c9ca392-5102-4fea-bae5-c328c3c32faf.dmp 2026-10-14 14:28:01Z 197562
+FILE 3c9ca392-5102-4fea-bae5-c328c3c32faf-full.dmp 2026-10-14 14:28:01Z 97377171
+USING C:\Users\austi\Desktop\NSM-Server\crashes\3c9ca392-5102-4fea-bae5-c328c3c32faf.dmp
+EXC code=0xC0000005 addr=0x7FFEFB613028 nparams=2
+PARAM0=0x0
+PARAM1=0x0
+REGS rip=0x7FFEFB613028 rsp=0x3AB65FFAD0 rax=0x0 rcx=0x7FFEF916F078 rdx=0x0 rbx=0x23AB1524CA0 rbp=0x0 rsi=0x7FFEF916F070 rdi=0x0
+CRASH-IN C:\Users\austi\Desktop\NSM-Server\msvcp140.dll+0x13028
+MODULES 69
+MOD C:\Users\austi\Desktop\NSM-Server\nsm-server.exe base=0x7FF702DF0000 size=0x44000
+MOD C:\Windows\System32\ntdll.dll base=0x7FF835830000 size=0x218000
+MOD C:\Windows\System32\kernel32.dll base=0x7FF834D80000 size=0xC4000
+MOD C:\Windows\System32\KERNELBASE.dll base=0x7FF8329C0000 size=0x3D3000
+MOD C:\Windows\System32\user32.dll base=0x7FF834E50000 size=0x1B2000
+MOD C:\Windows\System32\win32u.dll base=0x7FF833000000 size=0x26000
+MOD C:\Windows\System32\gdi32.dll base=0x7FF833690000 size=0x29000
+MOD C:\Windows\System32\gdi32full.dll base=0x7FF8333B0000 size=0x11B000
+MOD C:\Windows\System32\msvcp_win.dll base=0x7FF833030000 size=0x9A000
+MOD C:\Windows\System32\ucrtbase.dll base=0x7FF832E60000 size=0x111000
+MOD C:\Users\austi\Desktop\NSM-Server\VCRUNTIME140_1.dll base=0x7FFFF8E80000 size=0xC000
+MOD C:\Users\austi\Desktop\NSM-Server\msvcp140.dll base=0x7FFEFB600000 size=0x8E000
+MOD C:\Users\austi\Desktop\NSM-Server\CoreRT.dll base=0x7FFEF9090000 size=0x10C000
+MOD C:\Users\austi\Desktop\NSM-Server\VCRUNTIME140.dll base=0x7FFF70030000 size=0x1B000
+MOD C:\Windows\System32\ole32.dll base=0x7FF833AB0000 size=0x1A1000
+MOD C:\Windows\System32\combase.dll base=0x7FF833700000 size=0x391000
+MOD C:\Windows\System32\rpcrt4.dll base=0x7FF8334D0000 size=0x118000
+MOD C:\Windows\System32\shell32.dll base=0x7FF833ED0000 size=0x89C000
+MOD C:\Windows\System32\WinTypes.dll base=0x7FF833240000 size=0x13F000
+MOD C:\Windows\System32\imm32.dll base=0x7FF8336C0000 size=0x31000
+MOD C:\Windows\System32\sechost.dll base=0x7FF8349C0000 size=0xA8000
+MOD C:\Windows\System32\bcrypt.dll base=0x7FF833380000 size=0x28000
+MOD C:\Windows\System32\kernel.appcore.dll base=0x7FF831A10000 size=0x18000
+MOD C:\Windows\System32\msvcrt.dll base=0x7FF835180000 size=0xA7000
+MOD C:\Users\austi\Desktop\NSM-Server\net-base.dll base=0x7FFF448C0000 size=0x2B000
+MOD C:\Windows\System32\ws2_32.dll base=0x7FF834930000 size=0x71000
+MOD C:\Windows\System32\dnsapi.dll base=0x7FF831470000 size=0xF8000
+MOD C:\Windows\System32\IPHLPAPI.DLL base=0x7FF831440000 size=0x2D000
+MOD C:\Windows\System32\nsi.dll base=0x7FF834B90000 size=0x9000
+MOD C:\Windows\System32\SHCore.dll base=0x7FF834C70000 size=0x104000
+MOD C:\Users\austi\Desktop\NSM-Server\net-tcp-server.dll base=0x7FFEFEF40000 size=0x69000
+MOD C:\Users\austi\Desktop\NSM-Server\libuv.dll base=0x7FFEF8DC0000 size=0x2CD000
+MOD C:\Users\austi\Desktop\NSM-Server\botan.dll base=0x7FFEF8920000 size=0x492000
+MOD C:\Windows\System32\advapi32.dll base=0x7FF835230000 size=0xB1000
+MOD C:\Windows\System32\crypt32.dll base=0x7FF8330D0000 size=0x168000
+MOD C:\Windows\System32\dbghelp.dll base=0x7FF830460000 size=0x233000
+MOD C:\Windows\System32\oleaut32.dll base=0x7FF834A90000 size=0xD8000
+MOD C:\Windows\System32\userenv.dll base=0x7FF831FE0000 size=0x28000
+MOD C:\Windows\System32\CRYPTBASE.DLL base=0x7FF832160000 size=0xC000
+MOD C:\Windows\System32\dbgcore.dll base=0x7FF828D90000 size=0x32000
+MOD C:\Users\austi\Desktop\NSM-Server\net-http-server.dll base=0x7FFF01C90000 size=0x5D000
+MOD C:\Users\austi\Desktop\NSM-Server\net-packet.dll base=0x7FFF4ED60000 size=0x11000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-server-instance.dll base=0x7FFF43E70000 size=0x26000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-server-net.dll base=0x7FFEFC750000 size=0x67000
+MOD C:\Users\austi\Desktop\NSM-Server\vfs-core.dll base=0x7FFF00FC0000 size=0x44000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-resources-core.dll base=0x7FFEF8860000 size=0xB1000
+MOD C:\Users\austi\Desktop\NSM-Server\scripting-server.dll base=0x7FFF4BAD0000 size=0x13000
+MOD C:\Users\austi\Desktop\NSM-Server\conhost-server.dll base=0x7FFEF87A0000 size=0xB6000
+MOD C:\Windows\System32\d3d11.dll base=0x7FF82CC10000 size=0x257000
+MOD C:\Users\austi\Desktop\NSM-Server\imgui.dll base=0x7FFEF7A30000 size=0x173000
+MOD C:\Users\austi\Desktop\NSM-Server\CONCRT140.dll base=0x7FFEF8750000 size=0x4E000
+MOD C:\Windows\System32\D3DCOMPILER_47.dll base=0x7FF82C210000 size=0x3E6000
+MOD C:\Windows\System32\dwmapi.dll base=0x7FF82FD90000 size=0x2B000
+MOD C:\Windows\System32\dxgi.dll base=0x7FF82FC80000 size=0xF7000
+MOD C:\Windows\System32\cryptsp.dll base=0x7FF832140000 size=0x1B000
+MOD C:\Users\austi\Desktop\NSM-Server\http-client.dll base=0x7FFF19680000 size=0x3E000
+MOD C:\Users\austi\Desktop\NSM-Server\cfx_curl_x86_64.dll base=0x7FFEF66C0000 size=0x260000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-scripting-core.dll base=0x7FFEF7980000 size=0xAE000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-scripting-mono.dll base=0x7FFEF86F0000 size=0x54000
+MOD C:\Users\austi\Desktop\NSM-Server\mono-2.0-sgen.dll base=0x7FFEF60A0000 size=0x61A000
+MOD C:\Windows\System32\version.dll base=0x7FF82A810000 size=0xA000
+MOD C:\Windows\System32\winmm.dll base=0x7FF82E1B0000 size=0x34000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-devtools.dll base=0x7FFEF7930000 size=0x42000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-scripting-lua.dll base=0x7FFEF5E40000 size=0x259000
+MOD C:\Users\austi\Desktop\NSM-Server\vfs-impl-server.dll base=0x7FFF1A140000 size=0x2E000
+MOD C:\Users\austi\Desktop\NSM-Server\pool-sizes-state.dll base=0x7FFF015F0000 size=0x3D000
+MOD C:\Users\austi\Desktop\NSM-Server\citizen-server-impl.dll base=0x7FFEF5750000 size=0x6E8000
+MOD C:\Windows\System32\shlwapi.dll base=0x7FF835060000 size=0x69000
+MOD C:\Users\austi\Desktop\NSM-Server\nng.dll base=0x7FFEFDD40000 size=0x33000
+STK +0x038 C:\Windows\System32\KERNELBASE.dll+0x7AE4E
+STK +0x058 C:\Users\austi\Desktop\NSM-Server\CoreRT.dll+0x2BC65
+STK +0x088 C:\Windows\System32\KERNELBASE.dll+0x7F478
+STK +0x0B8 C:\Windows\System32\ucrtbase.dll+0xDA2C0
+STK +0x0D8 C:\Users\austi\Desktop\NSM-Server\CoreRT.dll+0x2B329
+STK +0x100 C:\Windows\System32\ucrtbase.dll+0xCC960
+STK +0x108 C:\Users\austi\Desktop\NSM-Server\CoreRT.dll+0x2AD83
+STK +0x118 C:\Windows\System32\kernel.appcore.dll+0x45B0
+STK +0x138 C:\Windows\System32\ucrtbase.dll+0x29333
+STK +0x168 C:\Windows\System32\kernel32.dll+0x1259D
+STK +0x198 C:\Windows\System32\ntdll.dll+0x5AF78
+STK +0x1E8 C:\Windows\System32\KERNELBASE.dll+0x181A60

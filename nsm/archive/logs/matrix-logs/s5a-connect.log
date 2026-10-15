@@ -1,0 +1,43 @@
+[2026-10-13 16:25:53] Starting connect.exe / NSM.exe
+[2026-10-13 16:25:53] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:25:53] NSM.exe path: C:\nsmtest\layoutC\client-new\NSM.exe
+[2026-10-13 16:25:53] baseDir (folder of NSM.exe - ALL pack lookups use this, never the working directory): C:\nsmtest\layoutC\client-new
+[2026-10-13 16:25:53] current working directory (informational only): C:\nsmtest\layoutC\client-new
+[2026-10-13 16:25:54] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:25:54] EnsureGameFilesReady: NSM.exe path = C:\nsmtest\layoutC\client-new\NSM.exe
+[2026-10-13 16:25:54] EnsureGameFilesReady: baseDir (folder of NSM.exe, the ONLY folder used for pack lookups) = C:\nsmtest\layoutC\client-new
+[2026-10-13 16:25:54] EnsureGameFilesReady: current working directory (informational only, NEVER used for pack lookups) = C:\nsmtest\layoutC\client-new
+[2026-10-13 16:25:54] EnsureGameFilesReady: game runtime targetDir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:25:54] Extracting game packs into C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f...
+[2026-10-13 16:25:54] Pack directory candidates (checked in this order, all resolved from the NSM.exe location):
+[2026-10-13 16:25:54]   candidate 1: C:\nsmtest\layoutC\client-new\packs
+[2026-10-13 16:25:54]   candidate 2: C:\nsmtest\layoutC\client-new\client-new\packs
+[2026-10-13 16:25:54]   candidate 3: C:\nsmtest\layoutC\packs
+[2026-10-13 16:25:54]   candidate 4: C:\nsmtest\layoutC\client-new
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp1.pack : present, 12000032 B (release pack is 228682672 B - content is validated during decryption)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp2.pack : present, 500016 B (release pack is 59032608 B - content is validated during decryption)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp3.pack : present, 91408 B (release pack is 41842720 B - content is validated during decryption)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp4.pack : present, 91408 B (release pack is 47905824 B - content is validated during decryption)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp5.pack : present, 91408 B (release pack is 44633120 B - content is validated during decryption)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp6.pack : present, 91408 B (release pack is 45305888 B - content is validated during decryption)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\packs\mp7.pack : present, 91408 B (release pack is 60693024 B - content is validated during decryption)
+[2026-10-13 16:25:54]   candidate C:\nsmtest\layoutC\client-new\packs : 7/7 packs present
+[2026-10-13 16:25:54]   candidate C:\nsmtest\layoutC\client-new\client-new\packs : directory does not exist (Windows error 3)
+[2026-10-13 16:25:54]   candidate C:\nsmtest\layoutC\packs : directory does not exist (Windows error 2)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp1.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp2.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp3.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp5.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp6.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   pack check: C:\nsmtest\layoutC\client-new\mp7.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:54]   candidate C:\nsmtest\layoutC\client-new : 0/7 packs present
+[2026-10-13 16:25:54] Selected pack directory: C:\nsmtest\layoutC\client-new\packs (all 7 packs present)
+[2026-10-13 16:25:54] pack mp1.pack extracted OK from C:\nsmtest\layoutC\client-new\packs
+[2026-10-13 16:25:54] note: C:\nsmtest\layoutC\client-new\packs\mp2.pack does not use standard PKCS7 padding - keeping the raw final block
+[2026-10-13 16:25:54] FAILED: extractor DLL for mp2.pack did not load (Windows error 193)
+[2026-10-13 16:25:54] Game files preparation FAILED: Extraction failed - the extractor for mp2.pack could not be loaded (Windows error 193).
+Pack file: C:\nsmtest\layoutC\client-new\packs\mp2.pack
+
+The pack is corrupt or incomplete. Re-download it and place it in:
+C:\nsmtest\layoutC\client-new\packs

@@ -1,0 +1,100 @@
+[2026-10-13 16:27:08] Starting connect.exe / NSM.exe
+[2026-10-13 16:27:08] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:27:08] NSM.exe path: C:\nsmtest\layoutS\client-new\NSM.exe
+[2026-10-13 16:27:08] baseDir (folder of NSM.exe - ALL pack lookups use this, never the working directory): C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:08] current working directory (informational only): C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:09] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:27:09] EnsureGameFilesReady: NSM.exe path = C:\nsmtest\layoutS\client-new\NSM.exe
+[2026-10-13 16:27:09] EnsureGameFilesReady: baseDir (folder of NSM.exe, the ONLY folder used for pack lookups) = C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:09] EnsureGameFilesReady: current working directory (informational only, NEVER used for pack lookups) = C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:09] EnsureGameFilesReady: game runtime targetDir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:27:09] Extracting game packs into C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f...
+[2026-10-13 16:27:09] Pack directory candidates (checked in this order, all resolved from the NSM.exe location):
+[2026-10-13 16:27:09]   candidate 1: C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:09]   candidate 2: C:\nsmtest\layoutS\client-new\client-new\packs
+[2026-10-13 16:27:09]   candidate 3: C:\nsmtest\layoutS\packs
+[2026-10-13 16:27:09]   candidate 4: C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp1.pack : present, 949792 B (release pack is 228682672 B - content is validated during decryption) [STUB - cannot provide libs\libce2.dll]
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp2.pack : present, 59032608 B
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp3.pack : present, 41842720 B
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp4.pack : present, 47905824 B
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp5.pack : present, 44633120 B
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp6.pack : present, 45305888 B
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\packs\mp7.pack : present, 60693024 B
+[2026-10-13 16:27:09]   candidate C:\nsmtest\layoutS\client-new\packs : 7/7 packs present (mp1.pack is the stub)
+[2026-10-13 16:27:09]   candidate C:\nsmtest\layoutS\client-new\client-new\packs : directory does not exist (Windows error 3)
+[2026-10-13 16:27:09]   candidate C:\nsmtest\layoutS\packs : directory does not exist (Windows error 2)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp1.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp2.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp3.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp5.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp6.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   pack check: C:\nsmtest\layoutS\client-new\mp7.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:09]   candidate C:\nsmtest\layoutS\client-new : 0/7 packs present
+[2026-10-13 16:27:09] Selected pack directory: C:\nsmtest\layoutS\client-new\packs (all 7 packs present; mp1.pack is the small STUB - the full pack downloads in the background)
+[2026-10-13 16:27:09] pack mp1.pack SKIPPED: it is the small stub (cannot provide libs\libce2.dll) - the full pack downloads in the background
+[2026-10-13 16:27:09] pack mp2.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:10] pack mp3.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:11] pack mp4.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:11] pack mp5.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:12] pack mp6.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:13] pack mp7.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:13] Packs successfully extracted.
+[2026-10-13 16:27:13]   libs\libce2.dll is NOT present: mp1.pack is the small stub and cannot provide it
+[2026-10-13 16:27:13] Post-extraction verification: libs\libce2.dll is unavailable - mp1.pack is the STUB.
+[2026-10-13 16:27:13] The full mp1.pack (226,614,288 B) downloads automatically in the background (see nsm-embed-debug.log: 'pack: mp1.pack upgraded').
+[2026-10-13 16:27:13] Game files preparation FAILED: The game file libs\libce2.dll is not available yet.
+
+C:\nsmtest\layoutS\client-new\packs\mp1.pack is the small STUB pack - it cannot provide libce2.dll.
+
+The full mp1.pack (226,614,288 B) is downloading automatically in the background. Press Connect again once nsm-embed-debug.log shows 'pack: mp1.pack upgraded' (usually within a minute).
+
+Manual fix: download mp1.pack from github.com/platinum-cfx/NSM/releases (game-packs) and place it in:
+C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:15] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:27:15] EnsureGameFilesReady: NSM.exe path = C:\nsmtest\layoutS\client-new\NSM.exe
+[2026-10-13 16:27:15] EnsureGameFilesReady: baseDir (folder of NSM.exe, the ONLY folder used for pack lookups) = C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:15] EnsureGameFilesReady: current working directory (informational only, NEVER used for pack lookups) = C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:15] EnsureGameFilesReady: game runtime targetDir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:27:15] Extracting game packs into C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f...
+[2026-10-13 16:27:15] Pack directory candidates (checked in this order, all resolved from the NSM.exe location):
+[2026-10-13 16:27:15]   candidate 1: C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:15]   candidate 2: C:\nsmtest\layoutS\client-new\client-new\packs
+[2026-10-13 16:27:15]   candidate 3: C:\nsmtest\layoutS\packs
+[2026-10-13 16:27:15]   candidate 4: C:\nsmtest\layoutS\client-new
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp1.pack : present, 228682672 B
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp2.pack : present, 59032608 B
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp3.pack : present, 41842720 B
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp4.pack : present, 47905824 B
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp5.pack : present, 44633120 B
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp6.pack : present, 45305888 B
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\packs\mp7.pack : present, 60693024 B
+[2026-10-13 16:27:15]   candidate C:\nsmtest\layoutS\client-new\packs : 7/7 packs present
+[2026-10-13 16:27:15]   candidate C:\nsmtest\layoutS\client-new\client-new\packs : directory does not exist (Windows error 3)
+[2026-10-13 16:27:15]   candidate C:\nsmtest\layoutS\packs : directory does not exist (Windows error 2)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp1.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp2.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp3.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp5.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp6.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   pack check: C:\nsmtest\layoutS\client-new\mp7.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:27:15]   candidate C:\nsmtest\layoutS\client-new : 0/7 packs present
+[2026-10-13 16:27:15] Selected pack directory: C:\nsmtest\layoutS\client-new\packs (all 7 packs present)
+[2026-10-13 16:27:17] pack mp1.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:18] pack mp2.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:18] pack mp3.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:19] pack mp4.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:19] pack mp5.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:21] pack mp6.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:21] pack mp7.pack extracted OK from C:\nsmtest\layoutS\client-new\packs
+[2026-10-13 16:27:21] Packs successfully extracted.
+[2026-10-13 16:27:21] Post-extraction verification passed: all 94 required files present (or installable from the local altv-runtime).
+[2026-10-13 16:27:21] Runtime wrapper discord_rpc.dll refreshed.
+[2026-10-13 16:27:21] Pre-launch: client = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\altv.exe [present]
+[2026-10-13 16:27:21] Pre-launch: gta_path = C:\nsmtest\layoutS\fakeGTA [GTA5.exe present]
+[2026-10-13 16:27:21] Pre-launch: wrapper discord_rpc.dll [present]
+[2026-10-13 16:27:21] Pre-launch: working dir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f, embed_game_window = true
+[2026-10-13 16:27:21] Launching: "C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\altv.exe" -connecturl altv://connect/127.0.0.1:7788 -directlaunch -customui http://127.0.0.1:9988/ui/index.html
+[2026-10-13 16:27:21] Client started (pid 636).

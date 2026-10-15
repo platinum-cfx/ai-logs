@@ -1,0 +1,68 @@
+[2026-10-13 16:25:29] Starting connect.exe / NSM.exe
+[2026-10-13 16:25:29] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:25:29] NSM.exe path: C:\nsmtest\layoutM\client-new\NSM.exe
+[2026-10-13 16:25:29] baseDir (folder of NSM.exe - ALL pack lookups use this, never the working directory): C:\nsmtest\layoutM\client-new
+[2026-10-13 16:25:29] current working directory (informational only): C:\nsmtest\layoutM\client-new
+[2026-10-13 16:25:30] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:25:30] EnsureGameFilesReady: NSM.exe path = C:\nsmtest\layoutM\client-new\NSM.exe
+[2026-10-13 16:25:30] EnsureGameFilesReady: baseDir (folder of NSM.exe, the ONLY folder used for pack lookups) = C:\nsmtest\layoutM\client-new
+[2026-10-13 16:25:30] EnsureGameFilesReady: current working directory (informational only, NEVER used for pack lookups) = C:\nsmtest\layoutM\client-new
+[2026-10-13 16:25:30] EnsureGameFilesReady: game runtime targetDir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:25:30] Extracting game packs into C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f...
+[2026-10-13 16:25:30] Pack directory candidates (checked in this order, all resolved from the NSM.exe location):
+[2026-10-13 16:25:30]   candidate 1: C:\nsmtest\layoutM\client-new\packs
+[2026-10-13 16:25:30]   candidate 2: C:\nsmtest\layoutM\client-new\client-new\packs
+[2026-10-13 16:25:30]   candidate 3: C:\nsmtest\layoutM\packs
+[2026-10-13 16:25:30]   candidate 4: C:\nsmtest\layoutM\client-new
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp1.pack : present, 12000032 B (release pack is 228682672 B - content is validated during decryption)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp2.pack : present, 91408 B (release pack is 59032608 B - content is validated during decryption)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp3.pack : present, 91408 B (release pack is 41842720 B - content is validated during decryption)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp5.pack : present, 91408 B (release pack is 44633120 B - content is validated during decryption)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp6.pack : present, 91408 B (release pack is 45305888 B - content is validated during decryption)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\packs\mp7.pack : present, 91408 B (release pack is 60693024 B - content is validated during decryption)
+[2026-10-13 16:25:30]   candidate C:\nsmtest\layoutM\client-new\packs : 6/7 packs present
+[2026-10-13 16:25:30]   candidate C:\nsmtest\layoutM\client-new\client-new\packs : directory does not exist (Windows error 3)
+[2026-10-13 16:25:30]   candidate C:\nsmtest\layoutM\packs : directory does not exist (Windows error 2)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp1.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp2.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp3.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp5.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp6.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   pack check: C:\nsmtest\layoutM\client-new\mp7.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:25:30]   candidate C:\nsmtest\layoutM\client-new : 0/7 packs present
+[2026-10-13 16:25:30] ERROR: no candidate directory contains all 7 game packs.
+[2026-10-13 16:25:30]   folder C:\nsmtest\layoutM\client-new\packs contains:
+    mp1.pack (12000032 B)
+    mp2.pack (91408 B)
+    mp3.pack (91408 B)
+    mp5.pack (91408 B)
+    mp6.pack (91408 B)
+    mp7.pack (91408 B)
+[2026-10-13 16:25:30]   folder C:\nsmtest\layoutM\client-new\client-new\packs : cannot list contents (Windows error 3)
+[2026-10-13 16:25:30]   folder C:\nsmtest\layoutM\packs : cannot list contents (Windows error 3)
+[2026-10-13 16:25:30]   folder C:\nsmtest\layoutM\client-new contains:
+    .config (108 B)
+    connect.exe (3848890 B)
+    discord_rpc.dll (108073 B)
+    discord_rpc_real.dll (85361 B)
+    nsm-embed-debug.log (55 B)
+    NSM.exe (3848890 B)
+    packs (folder)
+    steam_appid.txt (3 B)
+[2026-10-13 16:25:30]   folder C:\nsmtest\layoutM\client-new contains:
+    .config (108 B)
+    connect.exe (3848890 B)
+    discord_rpc.dll (108073 B)
+    discord_rpc_real.dll (85361 B)
+    nsm-embed-debug.log (55 B)
+    NSM.exe (3848890 B)
+    packs (folder)
+    steam_appid.txt (3 B)
+[2026-10-13 16:25:30] Game files preparation FAILED: Game packs incomplete in "C:\nsmtest\layoutM\client-new\packs" - only 6 of the 7 pack files were found.
+Missing: mp4.pack at C:\nsmtest\layoutM\client-new\packs\mp4.pack (Windows error 2 - file not found)
+
+Place all seven pack files (mp1.pack - mp7.pack) into the "packs" folder next to NSM.exe:
+C:\nsmtest\layoutM\client-new\packs
+Every checked path, file size and folder listing is in connect.log.

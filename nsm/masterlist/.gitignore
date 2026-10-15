@@ -1,0 +1,8 @@
+# build outputs (ships via GitHub Releases, not git)
+NSM-Masterlist.exe
+nsm-masterlist-linux-*
+nsm-masterlist-vps.zip
+# runtime state
+state.json
+poller-state.json
+*.log

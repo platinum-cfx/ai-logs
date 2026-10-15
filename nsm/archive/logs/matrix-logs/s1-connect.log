@@ -1,0 +1,68 @@
+[2026-10-13 16:24:09] Starting connect.exe / NSM.exe
+[2026-10-13 16:24:09] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:24:09] NSM.exe path: C:\nsmtest\layoutA\NSM.exe
+[2026-10-13 16:24:09] baseDir (folder of NSM.exe - ALL pack lookups use this, never the working directory): C:\nsmtest\layoutA
+[2026-10-13 16:24:09] current working directory (informational only): C:\nsmtest\layoutA
+[2026-10-13 16:24:10] NSM build: 2026-10-13-packfix2-dev
+[2026-10-13 16:24:10] EnsureGameFilesReady: NSM.exe path = C:\nsmtest\layoutA\NSM.exe
+[2026-10-13 16:24:10] EnsureGameFilesReady: baseDir (folder of NSM.exe, the ONLY folder used for pack lookups) = C:\nsmtest\layoutA
+[2026-10-13 16:24:10] EnsureGameFilesReady: current working directory (informational only, NEVER used for pack lookups) = C:\nsmtest\layoutA
+[2026-10-13 16:24:10] EnsureGameFilesReady: game runtime targetDir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:24:10] Extracting game packs into C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f...
+[2026-10-13 16:24:10] Pack directory candidates (checked in this order, all resolved from the NSM.exe location):
+[2026-10-13 16:24:10]   candidate 1: C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10]   candidate 2: C:\nsmtest\layoutA\client-new\packs
+[2026-10-13 16:24:10]   candidate 3: C:\nsmtest\packs
+[2026-10-13 16:24:10]   candidate 4: C:\nsmtest\layoutA
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp1.pack : present, 12000032 B (release pack is 228682672 B - content is validated during decryption)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp2.pack : present, 91408 B (release pack is 59032608 B - content is validated during decryption)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp3.pack : present, 91408 B (release pack is 41842720 B - content is validated during decryption)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp4.pack : present, 91408 B (release pack is 47905824 B - content is validated during decryption)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp5.pack : present, 91408 B (release pack is 44633120 B - content is validated during decryption)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp6.pack : present, 91408 B (release pack is 45305888 B - content is validated during decryption)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\packs\mp7.pack : present, 91408 B (release pack is 60693024 B - content is validated during decryption)
+[2026-10-13 16:24:10]   candidate C:\nsmtest\layoutA\packs : 7/7 packs present
+[2026-10-13 16:24:10]   candidate C:\nsmtest\layoutA\client-new\packs : directory does not exist (Windows error 3)
+[2026-10-13 16:24:10]   candidate C:\nsmtest\packs : directory does not exist (Windows error 2)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp1.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp2.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp3.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp4.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp5.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp6.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   pack check: C:\nsmtest\layoutA\mp7.pack : NOT FOUND (Windows error 2 - file not found)
+[2026-10-13 16:24:10]   candidate C:\nsmtest\layoutA : 0/7 packs present
+[2026-10-13 16:24:10] Selected pack directory: C:\nsmtest\layoutA\packs (all 7 packs present)
+[2026-10-13 16:24:10] pack mp1.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] pack mp2.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] pack mp3.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] pack mp4.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] pack mp5.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] pack mp6.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] pack mp7.pack extracted OK from C:\nsmtest\layoutA\packs
+[2026-10-13 16:24:10] Packs successfully extracted.
+[2026-10-13 16:24:10]   pending: \altv.exe is not in the runtime folder yet - it will install from C:\nsmtest\layoutA\altv-runtime\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\altv.exe
+[2026-10-13 16:24:10] Post-extraction verification passed: all 94 required files present (or installable from the local altv-runtime).
+[2026-10-13 16:24:10] Installing game runtime from: C:\nsmtest\layoutA\altv-runtime\39a4cb14b4afd8c1eef1667c74e3b5936238c44f
+[2026-10-13 16:24:10] Game runtime install complete.
+[2026-10-13 16:24:10] Warning: proxy.dll could not be loaded from C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\proxy\proxy.dll (error 193) - continuing without the proxy.
+[2026-10-13 16:24:10] Warning: config.dll could not be loaded from C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\config.dll (error 193) - continuing with the existing client config.
+[2026-10-13 16:24:10] Runtime wrapper discord_rpc.dll refreshed.
+[2026-10-13 16:24:10] Pre-launch: client = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\altv.exe [present]
+[2026-10-13 16:24:10] Pre-launch: gta_path = C:\nsmtest\layoutA\fakeGTA [GTA5.exe present]
+[2026-10-13 16:24:10] Pre-launch: wrapper discord_rpc.dll [present]
+[2026-10-13 16:24:10] Pre-launch: working dir = C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f, embed_game_window = true
+[2026-10-13 16:24:10] Launching: "C:\users\user\AppData\Local\39a4cb14b4afd8c1eef1667c74e3b5936238c44f\altv.exe" -connecturl altv://connect/127.0.0.1:7788 -directlaunch -customui http://127.0.0.1:9988/ui/index.html
+[2026-10-13 16:24:10] Client started (pid 520).
+[2026-10-13 16:24:11] GTA5.exe appeared 1s after launch.
+[2026-10-13 16:24:13] Embed: game pid 528 window found
+[2026-10-13 16:24:13] Embed: embed: NSM host window found
+[2026-10-13 16:24:13] Embed: embed: SetParent ok
+[2026-10-13 16:24:13] Embed: embed: child style set
+[2026-10-13 16:24:13] Embed: embed: frame updated
+[2026-10-13 16:24:13] Embed: embed: parent verified (WS_CHILD + reparent confirmed)
+[2026-10-13 16:24:13] Embed: embed: fitted
+[2026-10-13 16:24:14] Embed: embed: host window shown
+[2026-10-13 16:24:14] Embed: embed: focus set
+[2026-10-13 16:24:14] Embed: game window embedded into the NSM window.
+[2026-10-13 16:24:14] In game: embedded in the NSM window.
