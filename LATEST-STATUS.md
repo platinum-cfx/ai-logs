@@ -24,3 +24,11 @@
 - Fix pushed in commit `f52d3d5c99d21230de82e9cf19b0dbee6b43ab6c`: Mono assembly loading again uses the upstream `FiveM` namespace; visible launcher branding remains NSM.
 - Fixed the client packer mismatch too: it now accepts the source-rebranded `NSM_Diag.exe` and stores it under the upstream cache filename expected by the packaging overlay.
 - New Windows client build run `38819701247` is in progress. The next diagnostic package will be uploaded only after validation. Runtime confirmation is still required.
+
+## Client fix build and diagnostic package — 2026-10-15 local time
+- Client fix commit `f52d3d5c99d21230de82e9cf19b0dbee6b43ab6c` built successfully in GitHub run `38819701247`.
+- The fixed Mono host now requests `CitizenFX.FiveM.NativeImpl.dll`, matching the DLL in the package and preserving the FiveM/CitizenFX runtime namespace. The packer also completed after handling the `NSM_Diag.exe` output name.
+- Final ZIP checks passed: CRC, Steam app ID 218, localhost routing, branding, launcher/diagnostic files, and six launch-diagnostic markers in `sticky.dll`. Confirmed the Mono host has the FiveM NativeImpl reference and no stale NSM NativeImpl reference.
+- Uploaded new test asset `NSM-client-v0.7.5-diagnostic-localtest.zip` (233,512,738 bytes): https://github.com/platinum-cfx/NSM-FIVEM/releases/download/nsm-v0.2-preview/NSM-client-v0.7.5-diagnostic-localtest.zip
+- README no longer asks for a second GTA download; existing Steam GTA V Legacy is supported. This remains a diagnostic test build, not a final fix; boot-to-menu/list verification is pending.
+- User asked to keep the workspace for now.
